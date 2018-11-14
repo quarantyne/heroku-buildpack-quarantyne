@@ -1,3 +1,2 @@
 #!/bin/sh
-echo $JAVA_HOME
-java -version
+$JAVA_HOME/bin/java -version
