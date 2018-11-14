@@ -1,4 +1,3 @@
 #!/bin/sh
 set +x
 wget -nc https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar 
-$1/.jdk/bin/java -jar quarantyne.jar --proxyPort $(cat $3/PORT) --remoteHost 127.0.0.1 --remotePort 5000
