@@ -1,3 +1,3 @@
 #!/bin/sh
 set +x
-wget -nc $1/quarantyne.jar https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar 
+wget -nc -P $1 https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar 
