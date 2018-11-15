@@ -1,2 +1,3 @@
 #!/bin/sh
 # $1/.jdk/bin/java -version
+printenv JAVA_HOM > /dev/null
