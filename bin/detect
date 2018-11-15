@@ -1,2 +1,3 @@
 #!/bin/sh
+# heroku/jvm buildpack is required!
 printenv JAVA_HOME > /dev/null
