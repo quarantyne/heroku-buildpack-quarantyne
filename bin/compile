@@ -1,6 +1,8 @@
 #!/bin/sh
 set +x
+add-apt-repository ppa:webupd8team/java
 apt-get update
-apt-get install default-jre
-wget -nc -P $1 https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar 
+apt-get install oracle-java8-installer
+/usr/lib/jvm/java-8-oracle/bin/java -version
+wget -nc -q -P $1 https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar 
 exit 1
