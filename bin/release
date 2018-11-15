@@ -1,1 +1,7 @@
 #!/bin/sh
+
+cat << EOF
+---
+default_process_types:
+  web: java -jar quarantyne.jar --proxyHost 0.0.0.0 --proxyPort $PORT
+EOF
