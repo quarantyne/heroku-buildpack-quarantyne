@@ -1,7 +1,4 @@
 #!/bin/sh
 # bin/compile <build-dir> <cache-dir> <env-dir>
-
-# fail fast
-set -e
-set -o pipefail
 wget -nc -q -P $1 https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar
+java -version
