@@ -1,2 +1,2 @@
 #!/bin/sh
-$1/.jdk/bin/java -version
+# $1/.jdk/bin/java -version
