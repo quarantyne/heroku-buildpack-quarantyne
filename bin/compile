@@ -1,4 +1,4 @@
 #!/bin/sh
 # bin/compile <build-dir> <cache-dir> <env-dir>
-wget -nc -q -P $1 https://releases.quarantyne.com/quarantyne.jar
+wget -nc -q -P $1 https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar
 echo '-----> quarantyne installation is complete'
