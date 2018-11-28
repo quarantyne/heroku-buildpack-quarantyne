@@ -1,4 +1,13 @@
 #!/bin/sh
+# Fail immediately on non-zero exit code.
+set -e
+# Fail immediately on non-zero exit code within a pipeline.
+set -o pipefail
+# Fail on undeclared variables.
+set -u
+# Debug, echo every command
+#set -x
+
 # bin/compile <build-dir> <cache-dir> <env-dir>
 wget -nc -q -P $1 https://s3-us-west-2.amazonaws.com/releases.quarantyne.com/quarantyne.jar
 echo '-----> Quarantyne installation is complete'
