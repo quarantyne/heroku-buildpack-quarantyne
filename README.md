@@ -2,7 +2,7 @@
 A [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) to install [**Quarantyne**](https://github.com/quarantyne/quarantyne) on a heroku dyno. **Quarantyne** is an open-source layer 7 firewall that protects websites and APIs from bots, fraudulent behavior, application misuse, and cyber-attacks.
 
 ## Requirements
-Quarantyne requires a JVM to function. If your app is not a JVM app (java, scala, clojure), you must install the official [JVM](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-jvm-common) from Heroku.
+Quarantyne requires a JVM to function. If your app is not a JVM app (java, scala, clojure), you must install the official [JVM](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-jvm-common) buildpack from Heroku.
 
 ## Installation
 Add this buildpack to any heroku app with
